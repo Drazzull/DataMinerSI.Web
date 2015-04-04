@@ -7,7 +7,10 @@
         <title>DataMinerSI.Web</title>
     </h:head>
     <h:body>
-        <p:chart type="pie" model="#{chartView.pieModel1}" style="width:400px;height:300px" />
-        <p:chart type="pie" model="#{chartView.pieModel2}" style="width:400px;height:300px" />
+        <p:chart type="pie" model="#{chartView.chartEstadoCivil}" style="width:600px;height:400px" />
+        <p:chart type="pie" model="#{chartView.chartGrauInstrucao}" style="width:600px;height:400px" />
+        <p:chart type="pie" model="#{chartView.chartFilhos}" style="width:600px;height:400px" />
+        <p:chart type="bar" model="#{chartView.chartIdade}" style="width:600px;height:900px" />
+        <p:chart type="bar" model="#{chartView.chartSalario}" style="width:600px;height:900px" />
     </h:body>
 </html>
